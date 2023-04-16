@@ -3,14 +3,21 @@ Local Setup of K8s Cluster
 
 Tools:
 1. Minikube
-Local Kubernetes engine
-Runs single-node Kubernetes cluster
+A tool for running a single-node Kubernetes cluster on a local machine
 
 2. kind
-Run local Kubernetes clusters using Docker
-Supports multi-node (including HA) clusters
+A tool for running local Kubernetes clusters using Docker containers
+Supports all type clusters (muti-node / multi-master)
 
 3. kubeadm
-
+A tool for bootstrapping a Kubernetes cluster
+Only 1 master node is allowed
 
 4. k3s
+Alternative to kubeadm if simplicity is preferred
+
+
+https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s
+https://kubernetes.io/docs/tasks/tools/
+
+Choice: kind
