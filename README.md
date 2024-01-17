@@ -16,7 +16,8 @@ Only 1 master node is allowed
 4. k3s    
 Alternative to kubeadm if simplicity is preferred    
 
-5. microK8s     
+5. microK8s
+6. k3d - https://k3d.io/v5.6.0/
 
 https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s    
 https://kubernetes.io/docs/tasks/tools/     
